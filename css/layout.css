@@ -1,1 +1,5 @@
-@layer layout {}
+@layer layout {
+  body {
+    min-height: 100svb;
+  }
+}

@@ -24,5 +24,6 @@
     --bg-color-2: var(--purple-50);
     --bg-color-3: var(--gray-90);
     --bg-color-4: var(--black-90);
+    --bg-color-5: var(--gray-30);
   }
 }
