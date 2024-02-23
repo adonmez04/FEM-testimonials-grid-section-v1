@@ -1,0 +1,40 @@
+@layer modules {
+
+  /* The card module */
+  .section-card {
+    max-inline-size: 23.4375rem;
+    padding-block: 4.4375rem;
+    /* padding-inline: 1.5rem;     */
+  }
+
+  .card-wrapper {
+    max-inline-size: 20.4375rem;
+  }
+
+  .card {
+    max-inline-size: 16.4375rem;
+    margin-inline: auto;
+    padding-block: 1.625rem 2rem;
+    /* padding-inline: 2rem; */
+    box-shadow: 2.5rem 3.75rem 3.125rem -2.9375rem rgba(72 85 106 / 0.25);
+    border-radius: 0.5rem;
+
+    @media (width > 600px) {
+      padding-block: 1.625rem 1.625rem;
+    }
+  }
+
+  .card--user {
+    display: flex;
+    align-items: center;
+    column-gap: 1.06rem;
+  }
+
+  .card--user-image {}
+
+  .card--user-content {}
+
+  .card--user-name {}
+
+  .card--user-title {}
+}

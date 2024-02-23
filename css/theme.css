@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+@layer theme {
+
+  /* Raw colors */
+  :root {
+    --white-100: #FFF;
+    --gray-50: #CFCFCF;
+    --gray-30: #ECF2F8;
+    --gray-90: #48556A;
+    --purple-50: #733FC8;
+    --purple-30: #A775F1;
+    --black-100: #000;
+    --black-90: #19202D;
+  }
+
+  /* Colors */
+  :root {
+    --text-color-1: var(--white-100);
+    --text-color-2: var(--gray-50);
+    --text-color-3: var(--gray-90);
+    --text-color-4: var(--gray-30);
+    --bg-color-1: var(--white-100);
+    --bg-color-2: var(--purple-50);
+    --bg-color-3: var(--gray-90);
+    --bg-color-4: var(--black-90);
+  }
+}

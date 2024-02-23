@@ -1,0 +1,15 @@
+@layer utilities {
+
+  /* For the card module */
+  .bg-purple {
+    background-color: var(--bg-color-2);
+  }
+
+  .bg-gray {
+    background-color: var(--bg-color-3);
+  }
+
+  .bg-gray-2 {
+    background-color: var(--bg-color-4);
+  }
+}

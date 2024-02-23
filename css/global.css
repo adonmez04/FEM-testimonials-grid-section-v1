@@ -1,0 +1,10 @@
+@layer global {
+  body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    color: unset;
+  }
+}
