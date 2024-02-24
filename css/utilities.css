@@ -29,7 +29,7 @@
     padding-inline-end: 1rem;
   }
 
-  .outline {
+  .card__user-image--outline {
     outline: 2px solid #A775F1;
   }
 
