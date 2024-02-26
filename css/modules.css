@@ -146,6 +146,9 @@
 
   .card__description--padding-extra {
     padding-inline-end: 1rem;
+    @media (width > 1000px){
+      padding-inline-end: 0;
+    }
   }
 
   .card__description--text-gray-50 {
