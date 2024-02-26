@@ -1,1 +1,10 @@
-@layer utilities {}
+@layer utilities {
+  .visually-hidden:not(:focus):not(:active):not(:focus-within) {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
