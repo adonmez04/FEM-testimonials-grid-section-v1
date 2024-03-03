@@ -9,7 +9,7 @@
     container: card-layout / inline-size;
   }
 
-  .card-wrapper {
+  .grid {
     display: grid;
     /* This min(255px, 100%) trick is from the Every Layout book. 
     It works like the flex-basis. 
