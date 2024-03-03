@@ -11,7 +11,14 @@
 
   .card-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    /* This min(255px, 100%) trick is from the Every Layout book. 
+    It works like the flex-basis. 
+    If the grid items are smaller than 255px, 
+    the 100% will work and they will cover the whole line 
+    like display: block.
+    */
+    grid-template-columns: repeat(auto-fit, minmax(min(255px, 100%), 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); */
     row-gap: 1.5rem;
     column-gap: 1.875rem;
   }
